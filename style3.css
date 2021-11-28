@@ -80,12 +80,6 @@ nav.menu ul a:hover {
 	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
 }
  
-.conteudo img {
-	min-width: 650px;
-	margin:0 0 25px -25px;
-	max-width: 650px;
-}
- 
 .conteudo h1 {
 	padding:0;
 	margin:0 0 15px;
@@ -115,32 +109,6 @@ nav.menu ul a:hover {
 	margin: -10px 0 15px;
 	text-transform: uppercase;
 }
-.comments-title,
-.comment-reply-title {
-	margin-bottom: 20px;
-}
-.comment-body {
-	margin-bottom: 30px;
-}
-ol.comment-list,
-ol.comment-list ol.children {
-	margin: 0;
-	list-style: none;
-	color: #777;
-}
-.children {
-	padding-left: 10px;
-}
-.comment-meta {
-	padding-bottom: 10px;
-}
-.required {
-	color: red;
-}
-.bypostauthor .comment-body .comment-author .avatar {
-	border: 1px solid #333;
-	padding: 2px;
-}
 
 footer {
 	background-color: rgb(27, 26, 26);
@@ -168,15 +136,6 @@ footer {
 		width: 90%;
 		margin:25px auto;
 	}
-	.sidebar {
-		width:100%;
-		margin:25px 0 0;
-		float:right;
-	}
- 
-	.sidebar .widget {
-		padding:5%;
-	}
  
 	nav.menu ul {
 		width: 100%;
@@ -202,25 +161,6 @@ footer {
 		width:90%;
 	}
  
-	.conteudo {
-		float:inherit;
-		margin:0 auto 25px;
-		width:101%;
-		border:1px solid #dedede;
-		padding:5%;  
-		background: #fff;
-	}
- 
-	.conteudo img {
-		max-width: 110%;
-		margin:0 0 25px -5%;
-		min-width: 110%;
-	}
- 
-	.conteudo .continue-lendo:hover {
-		margin-left:0;
-	}
- 
  
 }
  
@@ -229,20 +169,5 @@ footer {
 	nav.menu ul a {
 		padding:15px;
 		font-size: 14px;
-	}
- 
-	.sidebar {
-		display:none
-	}
-	.post-info {
-		display:none;
-	}
- 
-	.conteudo {
-		margin:25px auto;
-	}
- 
-	.conteudo img {
-		margin:-5% 0 25px -5%;
 	}			
 }
